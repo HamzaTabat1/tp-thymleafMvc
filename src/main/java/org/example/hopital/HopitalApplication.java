@@ -18,17 +18,11 @@ public class HopitalApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        patientRepository.save(new Patient(null,"Mohamed",new Date(),false,34));
+        /*patientRepository.save(new Patient(null,"Mohamed",new Date(),false,34));
         patientRepository.save(new Patient(null,"Hanane",new Date(),false,4534));
-        patientRepository.save(new Patient(null,"Imane",new Date(),true,3401));
+        patientRepository.save(new Patient(null,"Imane",new Date(),true,3401));*/
 
-        //en utilisant builder
-        /*Patient patient3 = Patient.builder()
-                .nom("Imane")
-                .dateNaissance(new Date())
-                .score(45)
-                .malade(true)
-                .build();*/
+
     }
 
     public static void main(String[] args) {
